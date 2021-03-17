@@ -9,4 +9,4 @@
 * 8 - Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 * 9 - Learn your times table mandatory
 * 10 - Write a function that adds two integer and returns the result.
-
+* 11 - Write a function that prints all natural numbers from n to 98, followed by a new line.

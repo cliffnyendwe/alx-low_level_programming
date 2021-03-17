@@ -1,26 +1,22 @@
 #include <stdio.h>
-
 /**
- * main - this is the main function
- * Description: It returns 0 - 9 then a - f
- * Return: The function returns 0
+ * main - print if the number is postive, zero, or negative
+ *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
  */
 int main(void)
 {
-  int n, i, hex;
-
-  n = 48;
-  for (i = 0; i <= 9; i++)
-    {
-      putchar(n);
-      n++;
-    }
-  hex = 97;
-  for (i = 0; i <= 5; i++)
-    {
-      putchar(hex);
-      hex++;
-    }
-  putchar(10);
-  return (0);
+char c;
+for (c = '0'; c <= '9'; c++)
+{
+	putchar(c);
+}
+for (c = 'a'; c <= 'f'; c++)
+{
+	putchar(c);
+}
+putchar('\n');
+return (0);
 }

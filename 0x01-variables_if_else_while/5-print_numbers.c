@@ -1,18 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - This is the main function
- * Description: It prints all single digit numbers followed by new line
- * Return: the function returns 0
+ * main - print if the number is postive, zero, or negative
+ *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
  */
 int main(void)
 {
-  int num;
-
-  for (num = 0; num <= 9; num++)
-    {
-      printf("%d", num);
-    }
-  printf("\n");
-  return (0);
+int i;
+for (i = 0; i < 10; i++)
+{
+	printf("%i", i);
+}
+printf("\n");
+return (0);
 }
